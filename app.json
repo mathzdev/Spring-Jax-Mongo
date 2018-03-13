@@ -1,0 +1,8 @@
+{
+  "name": "Spring Jax and MongoDB",
+  "description": "This is a small demo application for showing integration spring with jax (ws/rs) and mongodb.",
+  "website": "http://github.com/ma-theus",
+  "repository": "https://github.com/ma-theus/Spring-Jax-Mongo",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
