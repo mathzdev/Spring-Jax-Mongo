@@ -29,8 +29,4 @@ https://spring-jax-mongo.herokuapp.com/
 
 #
 
-# Veja também em Spring (Java)
-
-https://github.com/ma-theus/Spring-Rest-Mongo
-
 # ~ by matheusluciox@gmail.com
