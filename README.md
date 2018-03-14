@@ -19,11 +19,15 @@ Para o MongoDB, preferi não hospedar um servidor local, acabei usando da mLab m
 
 https://spring-jax-mongo.herokuapp.com/
 
-### Endpoints REST
+### Endpoints REST (Spring REST)
 
 `GET`
 
-### Endpoints WBS-SOAP
+### Endpoints REST (JAX-RS)
+
+`GET`
+
+### Endpoints WBS-SOAP (JAX-WS)
 
 `GET`
 

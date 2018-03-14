@@ -1,11 +1,10 @@
 package com.github.matheus.springjaxmongo.controller.wbs;
 
 import com.github.matheus.springjaxmongo.entity.Hobbie;
-import com.github.matheus.springjaxmongo.service.HobbieService;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,11 +17,9 @@ import java.util.List;
         targetNamespace = "ma-theus/Spring-Jax-Mongo"
 )
 public class HobbieWBS {
-    @Autowired
-    private HobbieService hobbieService;
-
     @WebMethod(operationName = "Listar")
     public List<Hobbie> Listar() {
-        return hobbieService.listarHobbie();
+        List<Hobbie> hobbies = new ArrayList<Hobbie>();
+        return hobbies;
     }
 }
