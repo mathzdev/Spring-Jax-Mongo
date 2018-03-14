@@ -1,7 +1,8 @@
 package com.github.matheus.springjaxmongo;
 
-import com.github.matheus.springjaxmongo.controller.wbs.HobbieWBS;
-import com.github.matheus.springjaxmongo.controller.wbs.PessoaWBS;
+import com.github.matheus.springjaxmongo.controller.HobbieWBS;
+import com.github.matheus.springjaxmongo.controller.PessoaWBS;
+import com.github.matheus.springjaxmongo.controller.UtilWBS;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
@@ -18,7 +19,9 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
 
-        Endpoint.publish("http://localhost:8080/WBS/PessoaWBS", new PessoaWBS());
-        Endpoint.publish("http://localhost:8080/WBS/HobbieWBS", new HobbieWBS());
+        UtilWBS utilWBS = new UtilWBS();
+
+        Endpoint.publish(utilWBS.getCurrentUrl() + "/WBS/PessoaWBS", new PessoaWBS());
+        Endpoint.publish(utilWBS.getCurrentUrl() + "/WBS/HobbieWBS", new HobbieWBS());
     }
 }

@@ -23,13 +23,21 @@ https://spring-jax-mongo.herokuapp.com/
 
 `GET`
 
-### Endpoints REST (JAX-RS)
+https://spring-jax-mongo.herokuapp.com/pessoa
+https://spring-jax-mongo.herokuapp.com/hobbie
 
-`GET`
+![](https://i.imgur.com/HVjyIpi.png)
+![](https://i.imgur.com/tlg6ngu.png)
 
 ### Endpoints WBS-SOAP (JAX-WS)
 
 `GET`
+
+https://spring-jax-mongo.herokuapp.com/WBS/PessoaWBS?WSDL
+https://spring-jax-mongo.herokuapp.com/WBS/HobbieWBS?WSDL
+
+![](https://i.imgur.com/PP6mATF.png)
+![](https://i.imgur.com/dpnu7qm.png)
 
 #
 
