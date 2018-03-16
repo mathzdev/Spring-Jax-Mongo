@@ -1,6 +1,6 @@
 # Spring Jax (WS/RS) Com Mongo
 
-REST API com autenticação OAuth2 feito na linguagem de programação Java, com o framework Spring. Utilizando o Spring Boot, Maven e MongoDB.
+Interface com dois barramentos de WebService REST e WSDL(SOAP) para listagem da mesma fonte de dados.
   - https://spring.io
   - https://projects.spring.io/spring-boot
   - https://www.mongodb.com
@@ -9,7 +9,7 @@ REST API com autenticação OAuth2 feito na linguagem de programação Java, com
 
 # Sobre o Projeto
 
-Feito um REST e um WBS-SOAP usando Jax WS/RS para manter pessoa.
+Feito um REST e um WBS-SOAP usando Jax WS/RS para listar pessoa e hobbie.
 
 # MongoDB
 
